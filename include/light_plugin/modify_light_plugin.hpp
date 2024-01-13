@@ -17,6 +17,8 @@ namespace modify_light_plugin {
             //     gz::sim::EntityComponentManager &_ecm, gz::sim::EventManager &_eventMgr) override;
             void PreUpdate(const gz::sim::UpdateInfo &_info, gz::sim::EntityComponentManager &_ecm) override;
 
+        private:
+            float light_intensity;
     };
 }
 
